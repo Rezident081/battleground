@@ -1,0 +1,43 @@
+@import "~normalize.css/normalize.css";
+@import "./components/tooltip.scss";
+
+body{
+    font-family: Calibri, Arial;
+}
+
+#battlefield-container{
+    width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px #e4e4e4;
+
+    .title{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .list-container{
+        padding: 25px;
+    }
+
+    .warriors-list{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .list-item{
+        display: inline-block;
+        text-align: center;
+        margin: 15px 30px;
+
+        &__title{
+            font-weight: bold;
+        }
+
+        &__body{
+            img{
+                max-width: 60%;
+            }
+        }
+    }
+}
+
