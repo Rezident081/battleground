@@ -6,17 +6,15 @@ body{
 }
 
 #battlefield-container{
-    width: 1000px;
+    width: 1170px;
     margin: 50px auto;
     box-shadow: 0px 0px 15px #e4e4e4;
+    padding: 25px;
+    overflow: hidden;
 
     .title{
         font-weight: bold;
         text-transform: uppercase;
-    }
-
-    .list-container{
-        padding: 25px;
     }
 
     .warriors-list{
@@ -27,7 +25,10 @@ body{
     .list-item{
         display: inline-block;
         text-align: center;
-        margin: 15px 30px;
+        margin: 15px;
+        padding: 20px 0;
+        border: 1px solid #cccccc;
+        width: 170px;
 
         &__title{
             font-weight: bold;
@@ -35,9 +36,44 @@ body{
 
         &__body{
             img{
-                max-width: 60%;
+                max-width: 100%;
             }
         }
+    }
+
+    .battlefield-container{
+        width: 70%;
+        float: left;
+
+        table{
+            width: 100%;
+            border: 1px solid #d6d6d6;
+
+            tr { 
+                td{
+                    height: 125px;
+                    text-align: center;
+                    border-bottom: 1px solid #e8e8e8;
+                    border-right: 1px solid #e8e8e8;
+
+                    &:last-child{
+                        border-right: none;
+                    }
+                }
+            }
+
+            tr:last-child{
+                td{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    .scorebar-container{
+        width: 25%;
+        float: left;
+        margin-left: 5%;
     }
 }
 

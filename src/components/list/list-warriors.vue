@@ -5,10 +5,8 @@
             <ListItem 
                 v-for="{id, type, health, distance, damage} of totalSquad" 
                 :key="id" 
-                :id="id"
                 :type="type"
                 :health="health"
-                :distance="distance"
                 :damage="damage"
                 :image="setImage(type)"
                 :total="totalCount[type]"
@@ -26,7 +24,7 @@
 <script>
 
 import ListItem from "./list-warriors-item"
-import squad from "../../models/my_squad.json"
+import squads from "../../models/squads.json"
 import archerImg from "../../assets/archer.png"
 import knightImg from "../../assets/knight.png"
 import cavalryImg from "../../assets/cavalry.png"
@@ -41,18 +39,20 @@ export default {
 
     data(){
         return {
-            squad
+            squads
         }
     },
 
     computed:{
 
         totalSquad(){
-            return uniqBy(this.squad, "type")
+            const squad = this.getMySquad(this.squads);
+            return uniqBy(squad, "type")
         },
 
         totalCount(){
-            return countBy(this.squad, "type");
+            const squad = this.getMySquad(this.squads);
+            return countBy(squad, "type");
         }
 
     },
@@ -66,6 +66,16 @@ export default {
                 case "cavalry" : return cavalryImg;
             }
         },
+
+        getMySquad(squads){
+            let mySquad = [];
+            for (const key in squads) {
+                if (squads.hasOwnProperty(key) && squads[key].squad === 1) {
+                    mySquad[key] = squads[key];
+                }
+            }
+            return mySquad;
+        }
 
 
     }

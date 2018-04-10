@@ -1,0 +1,243 @@
+[
+    {
+      "id": 1,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 1
+    },
+    {
+      "id": 2,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 1
+    },
+    {
+      "id": 3,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 1
+    },
+    {
+      "id": 4,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 1
+    },
+    {
+      "id": 5,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 1
+    },
+    {
+      "id": 6,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 1
+    },
+    {
+      "id": 7,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 1
+    },
+    {
+      "id": 8,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 1
+    },
+    {
+      "id": 9,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 1
+    },
+    {
+      "id": 10,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 1
+    },
+    {
+      "id": 11,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 1
+    },
+    {
+      "id": 12,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 1
+    },
+    {
+      "id": 13,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 2
+    },
+    {
+      "id": 14,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 2
+    },
+    {
+      "id": 15,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 2
+    },
+    {
+      "id": 16,
+      "type": "knight",
+      "health": 200,
+      "maxHealth": 200,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 30,
+      "squad" : 2
+    },
+    {
+      "id": 17,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 2
+    },
+    {
+      "id": 18,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 2
+    },
+    {
+      "id": 19,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 2
+    },
+    {
+      "id": 20,
+      "type": "archer",
+      "health": 150,
+      "maxHealth": 150,
+      "distance": 1,
+      "maxDistance": 1,
+      "damage": 40,
+      "squad" : 2
+    },
+    {
+      "id": 21,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 2
+    },
+    {
+      "id": 22,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 2
+    },
+    {
+      "id": 23,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 2
+    },
+    {
+      "id": 24,
+      "type": "cavalry",
+      "health": 250,
+      "maxHealth": 250,
+      "distance": 2,
+      "maxDistance": 2,
+      "damage": 70,
+      "squad" : 2
+    }
+
+  ]
